@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <style>
+    button {
+      width: 50px;
+    }
+    input {
+      width: 151px;
+    }
+    #temValue {
+      width:50px;
+    }
+  </style>
+</head>
+<body>
+  <div id="tempValue"></div>
+  <div>
+    <input type="input" id="input">
+    <button id="clear">C</button>
+  </div>
+  <div>
+    <button id="plus">+</button>
+    <button id="minus">-</button>
+    <button id="divide">/</button>
+    <button id="multiply">X</button>
+  </div>
+  <div>
+    <button id=resultButton>=</button>
+    <input readonly type="result" id="result">
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
